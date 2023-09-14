@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+   
+</head>
+<body>
+    <div class="mobile-container">
+        <header>
+            <input type="text" id="search-term">
+            <button id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </header>
+        <div class="fav-container">
+            <h3>Favorite Meals</h3>
+
+            <div class="swiper mySwiper">
+                
+                <ul class="fav-meals swiper-wrapper" id="fav-meals">
+                    
+                        <!-- <li>
+                        <img src="https://www.themealdb.com//images//media//meals//xxpqsy1511452222.jpg" alt="">
+                        <span>VeggieSoup</span>
+                    </li> -->
+                   
+                </ul>
+            </div>
+            
+        </div>
+
+        <div class="meals" id="meals">
+            <!-- <div class="meal">
+                
+                <div class="meal-header">
+                    <span class="random">Random Recipe</span>
+                    <img src="https://www.themealdb.com//images//media//meals//xxpqsy1511452222.jpg" alt="">
+
+                </div>
+                <div class="meal-body">
+                    <h4>Veggie Veggies</h4>
+                    <button class="fav-btn ">
+                        <i class="fa-regular fa-heart"></i>
+                    </button>
+                </div>
+            </div> -->
+        </div>
+
+    </div>
+
+    <div class="popup-container close " id="meal-popup">
+        <div class="popup">           
+            <button  id="close-popup" class="close-popup"><i class="fas fa-window-close"></i></button>
+            
+            <div class="meal-info" id="meal-info">
+                    <!-- <h2>title meal</h2> 
+                    <img src="https://www.themealdb.com/images/media/meals/xwutvy1511555540.jpg" alt="">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda  nobis autem
+                        </p>
+                        <ul>
+                            <li> stp 1 / margain</li>
+                            <li>stp 3/ margain</li>
+                            <li>stp 3 / margain</li>
+                        </ul>  -->
+                </div>           
+        </div>
+    </div>
+
+  
+      
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+   
+</body>
+</html>
